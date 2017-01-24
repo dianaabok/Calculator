@@ -10,5 +10,10 @@ public class Calc{
       double two=Double.parseDouble(args[2]);
       System.out.println(one-two);
     }
+		        if(args[0].equals("divide")){
+      double one=Double.parseDouble(args[1]);
+      double two=Double.parseDouble(args[2]);
+      System.out.println(one/two);
+    }
   }
 }
